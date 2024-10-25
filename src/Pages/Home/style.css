@@ -1,0 +1,12 @@
+* {
+    --cor-texto-form: #FFF;
+    --cor-form: #1D332C;
+    --cor-fundo-texto: #2A483C;
+}
+
+#root {
+    background-image: url(/src/assets/Wyoming.jpeg);
+    background-position: center; 
+    width: 100%; 
+}
+
