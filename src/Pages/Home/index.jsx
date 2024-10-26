@@ -1,3 +1,4 @@
+import Form from "../../Components/Form"
 import Header from "../../Components/Header"
 import "./style.css"
 
@@ -9,6 +10,8 @@ const Home = () => {
             titulo2="Meet Us."
         />
         
+        <Form titulo="Connect to us."/>
+
             
         </>
     )

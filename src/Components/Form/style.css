@@ -1,0 +1,26 @@
+* {
+    --cor-texto-form: #FFF;
+    --cor-form: #1D332C;
+    --cor-fundo-texto: #2A483C;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-form);
+    max-width: 412px;
+    margin: 5rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    opacity: 80%;
+}
+
+.container-form h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "Marmelad", sans-serif;
+    color: var(--cor-texto-form);
+    max-width: max-content;
+    border-bottom: 4px solid var(--cor-fundo-texto);
+    border-radius: 4px;
+}
