@@ -14,6 +14,7 @@
     border-style: none;
     border-radius: 8px;
     background-color: var(--cor-fundo-texto);
+    color: var(--cor-texto-form);
     font-family: "Marmelad", sans-serif;
     caret-color: #FFF;
     outline: 1px solid var(--cor-form);

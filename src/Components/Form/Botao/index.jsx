@@ -22,9 +22,10 @@ const Botao = (props) => {
         }
     }
 
+
     return (
         <>
-            <button onClick={handleClick} id="btn" className="botao">{props.botao}</button>
+            <button type="submit"  id="btn" className="botao">{props.botao}</button>
         </>
     )
 }

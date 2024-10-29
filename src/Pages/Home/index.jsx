@@ -2,7 +2,17 @@ import Form from "../../Components/Form"
 import Header from "../../Components/Header"
 import "./style.css"
 
+import { useState } from "react";
+
 const Home = () => {
+    const [usuarios, setUsuarios] = useState([])
+
+    const aoNovoUsuarioAdicionado = (usuario) => {
+        console.log(usuario)
+        setUsuarios([...usuarios, usuario])
+    }
+
+
     return (
         <>
         <Header
@@ -10,7 +20,7 @@ const Home = () => {
             titulo2="Meet Us."
         />
         
-        <Form titulo="Connect to us."/>
+        <Form titulo="Connect to us." aoUsuarioCadastrado = {usuario => aoNovoUsuarioAdicionado(usuario)}/>
 
             
         </>
