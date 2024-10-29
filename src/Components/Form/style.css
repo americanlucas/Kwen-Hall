@@ -7,7 +7,9 @@
 .container-form {
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-form);
+    -webkit-backdrop-filter: blur(20px);
+    background-color: rgba(29, 51, 44, 0.7);
+    backdrop-filter: blur(20px);
     max-width: 412px;
     margin: 5rem auto;
     padding: 1rem;
