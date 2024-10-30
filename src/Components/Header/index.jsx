@@ -8,7 +8,7 @@ const Header = (props) => {
             <Link to="/">
                 <h1>{props.titulo1}</h1>
             </Link>
-            <Link to="/">
+            <Link to="/meet-us">
                 <h1>{props.titulo2}</h1>
             </Link>
            

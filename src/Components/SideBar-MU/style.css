@@ -1,0 +1,19 @@
+.section-sideBar {
+    min-height: 100vh;
+    position: fixed;
+    z-index: 0;
+}
+
+.section-sideBar .subtopics {
+    display: grid;
+    font-size: 1.5rem;
+    font-family: "Marmelad", sans-serif;
+    color: #000000;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.subtopics a {
+    text-decoration: none;
+    color: #000000;
+}

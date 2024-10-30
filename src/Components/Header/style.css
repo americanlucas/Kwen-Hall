@@ -10,14 +10,16 @@
 header {
     display: flex;
     justify-content: space-between;
-    
+    position: fixed;
+    width: 98.95%;
+    z-index: 1 ;
 }
 
 header h1 {
     padding: 2rem 2rem;
     font-size: 2rem;
     font-family: "Marmelad", sans-serif;;
-    color: var(--cor-header);
+    color: #000000;
 }
 
 header a {

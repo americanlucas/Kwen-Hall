@@ -15,12 +15,16 @@ const Home = () => {
 
     return (
         <>
-        <Header
-            titulo1="Kwen Hall."
-            titulo2="Meet Us."
-        />
+        <section className="section-home">
+            <Header
+                titulo1="Kwen Hall."
+                titulo2="Meet Us."
+            />
+
+            <Form titulo="Connect to us." aoUsuarioCadastrado = {usuario => aoNovoUsuarioAdicionado(usuario)}/>
+
+        </section>
         
-        <Form titulo="Connect to us." aoUsuarioCadastrado = {usuario => aoNovoUsuarioAdicionado(usuario)}/>
 
             
         </>

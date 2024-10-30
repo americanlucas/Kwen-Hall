@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./style.css"
 
 const Botao = (props) => {
@@ -24,8 +25,11 @@ const Botao = (props) => {
 
 
     return (
-        <>
+        <> 
+        <Link to="/meet-us">
             <button type="submit"  id="btn" className="botao">{props.botao}</button>
+        </Link>
+            
         </>
     )
 }

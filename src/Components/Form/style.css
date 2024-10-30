@@ -26,3 +26,9 @@
     border-bottom: 4px solid var(--cor-fundo-texto);
     border-radius: 4px;
 }
+
+.container-form a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
